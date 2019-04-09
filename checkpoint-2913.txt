@@ -1,0 +1,88 @@
+1 
+  A.string
+  B.integer
+  C.date
+  D.float
+  E.decimal
+
+2.  A database would be used if there will be multiple users accessing the information at the same time.
+ While a text file would be more appropriate if there is no potential for simultaneous access.
+
+
+3. SQL is a declarative language so rather than having to 'explain' step by step procedures you can 'declare' what you want to do.
+Rather than focus on how the database should find information we can focus simply on what information we want.
+
+4. Databases allow a user to create, read, update, and delete information in a stored location that has persistence.
+The information is stored in a binary file format so its would be rather difficult for a user to read or interpret.
+So a database also includes a more user-friendly GUI for the user to manipulate and read the information, while
+internal processes quickly handle the translation from one to the other to retrieve and serve the information as needed.
+
+
+5.
+A table is effectively the 'parent' in the relational aspect of the others within its context.ex: Inventory
+A column is a verticle slice of grouped information. ex: Item Quantity
+A row is a horizontal slice of information representing a whole. ex: All of the information pertaining to ONE item.
+A value is the data within each cell of the table. ex: "Turkey"
+
+
+
+6. Number, String and Float
+
+
+7. 
+
+A)  
+date		  amount 
+2016-05-01        1500.00
+2016-05-10        37.00
+2016-05-15        124.93
+2019-05-23        54.72
+
+
+
+B)
+
+amount
+1500.00
+
+C)
+ date            payee       amount     memo
+ 2016-05-15      Mega Foods  124.93     Groceries
+
+
+
+
+
+8.
+
+A)SELECT email, signup
+FROM users
+WHERE name = 'DeAndre Data';
+
+email               signup
+datad@comcast.net   2001-01-20
+
+
+
+
+
+B)
+
+SELECT userid
+FROM users
+WHERE email = 'aleesia.algorithm.uq.edu';
+
+userid
+1
+
+
+
+
+C)
+
+SELECT *
+FROM users
+WHERE userid = 4;
+
+userid 	name 			email				signup
+4 Brandy Boolean bboolean@nasa.gov 1999-10-15
